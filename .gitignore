@@ -1,0 +1,33 @@
+# Gradle & Build Caches
+.gradle/
+build/
+app/build/
+core/build/
+*/build/
+.kotlin/
+.dist/
+local.properties
+*.iml
+.idea/
+
+# Android Studio / OS
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+Thumbs.db
+
+# Build Artifacts
+output/
+*.apk
+*.aab
+
+# Local SDK & JDK tools (1.5GB+)
+.tools/
+
+# Python Ground Station
+__pycache__/
+*.pyc
+*.pyo
+snapshots/
+.pytest_cache/
